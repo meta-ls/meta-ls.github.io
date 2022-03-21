@@ -37,8 +37,8 @@ function myFunction() {
     
     <!---- Start of main body---->
     
-    <div>
-      <h1>I'm Coding</h1>
+    <div class="typing">
+      <h1>I'm <span class="typing-text"></span></h1>
     </div>
     <h1>Under Construction</h1>
     <code>Under Constuction</code>
@@ -62,5 +62,16 @@ function myFunction() {
   }
 }
 </script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    
+    
+    <script>
+      var typed = new Typed(".typing-text", {
+        strings: ["Coding", "playing", "Testing"],
+        typeSpeed: 150,
+        backSpeed: 150,
+        loop : true
+      })
+    </script>
   </body>
 </html>
