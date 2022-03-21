@@ -60,3 +60,16 @@ text-type {
   display: flex;
   align-items: center;
 }
+
+.margin-10vhl {
+  margin-left: 10vh
+}
+.margin-10vhr {
+  margin-right: 10vh
+}
+.margin-20vhl {
+  margin-left: 20vh
+}
+.margin-20vhr {
+  margin-right: 20vh
+}
