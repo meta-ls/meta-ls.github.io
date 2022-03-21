@@ -61,15 +61,11 @@ text-type {
   align-items: center;
 }
 
-.margin-10vhl {
-  margin-left: 10vh
+.margin-10per {
+  margin-left: 10%;
+  margin-right: 10%
 }
-.margin-10vhr {
-  margin-right: 10vh
-}
-.margin-20vhl {
-  margin-left: 20vh
-}
-.margin-20vhr {
-  margin-right: 20vh
+.margin-10vh {
+  margin-right: 10%;
+  margin-left: 10%
 }
