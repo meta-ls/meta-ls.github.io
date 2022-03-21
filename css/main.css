@@ -46,3 +46,8 @@ code {
   align-items: center;
   justify-content: center;
 }
+
+.typeing-text {
+   font-family: 'Roboto Mono', monospace;
+  
+}
