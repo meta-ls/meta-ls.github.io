@@ -33,6 +33,7 @@ code {
 }
 
 
+
 *{
   font-family: 'Raleway', sans-serif;
   }
@@ -58,15 +59,63 @@ text-type {
   width: 100%;
   height: 50vh;
   background: #ffffff;
+  color: #000;
   display: flex;
   align-items: center;
 }
-
+.red-module {
+  width: 100%;
+  height: 50vh;
+  background: #ad1818;
+  color: #fff;
+  display: flex;
+  align-items: center;
+}
+.green-module {
+  width: 100%;
+  height: 50vh;
+  background: #13630c;
+  color: #fff;
+  display: flex;
+  align-items: center;
+}
+.yellow-module {
+  width: 100%;
+  height: 50vh;
+  background: #c1c41f;
+  color: #000;
+  display: flex;
+  align-items: center;
+}
+.black-module {
+  width: 100%;
+  height: 50vh;
+  background: #000;
+  color: #fff;
+  display: flex;
+  align-items: center;
+}
 .margin-10per {
   margin-left: 10%;
   margin-right: 10%
 }
 .margin-10vh {
-  margin-right: 10%;
-  margin-left: 10%
+  margin-right: 10vh;
+  margin-left: 10vh
+}
+
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+
+::-webkit-scrollbar-thumb {
+  background: lightgray; 
+  border-radius: 10px;
+}
+
+
+::-webkit-scrollbar-thumb:hover {
+  background: grey; 
 }
