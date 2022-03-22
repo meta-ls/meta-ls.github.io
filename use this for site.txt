@@ -1,0 +1,59 @@
+<html>
+  <head>
+    <link rel="shortcut icon" href="./img/Mt.ico">
+    <link rel="stylesheet" href="./css/font-minecraft.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <meta content="MetaLS" property="og:title" />
+    <meta content="The Metaverse" property="og:description" />
+    <meta content="https://meta-ls.github.io" property="og:url" />
+    <meta content="https://meta-ls.github.io/img/Mt.png" property="og:image" />
+    <meta content="#ffcc5e" data-react-helmet="true" name="theme-color" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MetaLS - Enter The MetaVerse</title>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7019330351429677" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div class="header" id="myHeader" >
+      <a href="#c"><img src="./img/Mt.png"  width="30px" height="30px"></a>
+      <a href="/pages/socials" style="color: white; font-size: 30px">Socials</a>
+      <a href="#a" style="color: white; font-size: 30px">Blogs</a>
+      <a href="https://opensea.io/collection/meta-ls/" target="_blank" style="color: white; font-size: 30px">Opensea Collection</a>
+      
+      <br>
+    </div>
+    
+    <!---- Start of main body---->
+
+
+
+
+
+
+    <!----- END OF MAIN BODY ----->
+    <script>
+window.onscroll = function() {myFunction()};
+
+var header = document.getElementById("myHeader");
+var sticky = header.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset > sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+}
+</script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    
+    
+    <script>
+      var typed = new Typed(".typing-text", {
+        strings: ["MetaLS", "CasualLS", "HardLS", " THE METAVERSE", "THE MOST EPIC SERVER", "LifeSteal", "A Play to Earn Minecraft server"],
+        typeSpeed: 150,
+        backSpeed: 150,
+        loop : true
+      })
+    </script>
+  </body>
+</html>
