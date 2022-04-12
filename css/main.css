@@ -142,3 +142,12 @@ text-type {
   }
 }
 /*! minireset.css v0.0.2 | MIT License | github.com/jgthms/minireset.css */
+
+
+footer {
+    text-align: center;
+    background-attachment: scroll;
+    background-position: 0% 0%;
+    position: fixed;
+    bottom: 0pt;
+}
