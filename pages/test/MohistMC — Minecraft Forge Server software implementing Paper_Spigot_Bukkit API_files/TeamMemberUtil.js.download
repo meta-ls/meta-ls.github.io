@@ -1,0 +1,46 @@
+function addTeamMembers(div,team){for(const teamMember of team)
+div.insertAdjacentHTML('beforeend',getTeamMemberHTML(teamMember));}
+function getProfessionID(s){return s==='developer'?'part3-3':s==='contributor'?'part3-4':s==='web developer'?'part3-6':s==='community support'?'part3-5':s==='admin & developer'?'part3-2':'seemore';}
+function getTeamMemberHTML(teamMember){return `
+    <div class="vc_col-sm-3 wpb_column column_container vc_column_container col no-extra-padding"
+    data-t-w-inherits="default" data-shadow="none"
+    data-border-radius="none" data-border-animation=""
+    data-border-animation-delay="" data-border-width="none"
+    data-border-style="solid" data-border-color=""
+    data-bg-cover="" data-padding-pos="all"
+    data-has-bg-color="false" data-bg-color=""
+    data-bg-opacity="1" data-hover-bg=""
+    data-hover-bg-opacity="1" data-animation=""
+    data-delay="0">
+
+    <div class="vc_column-inner">
+        <div class="wpb_wrapper">
+            <div class="nectar-fancy-box style-5 using-img "
+                data-style="parallax_hover"
+                data-animation="" data-delay=""
+                data-color="accent-color">
+                <div class="parallaxImg">
+                    <div class="parallaxImg-layer"
+                        data-img="${teamMember.image}">
+                    </div>
+                    <div class="parallaxImg-layer">
+                        <a
+                            href="${teamMember.url}">
+                            <div class="meta-wrap"
+                                style="height: 380px">
+                                <div class="inner">
+                                    <i data-color="accent-color"
+                                        style="font-size: 50px!important; line-height: 50px!important;"></i>
+                                    <h2>${teamMember.name}</h2>
+                                    <h5 key="${getProfessionID(teamMember.profession)}">
+                                        ${teamMember.profession}</h5>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    `}
